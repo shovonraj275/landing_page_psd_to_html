@@ -1,0 +1,142 @@
+/* reused css */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #f1e5d9;
+}
+.container{
+    padding: 0px 107px 0 140px;
+}
+.flex{
+    display: flex !important;
+}
+.grid{
+    display: grid !important;
+}
+
+/* reused css */
+/* header */
+
+#header_part{
+    /* padding-top: 40px */
+    position: relative;
+}
+#header_part .flex{
+    justify-content: space-between;
+}
+#header_part img{
+    width: 50%;
+}
+#header_part .flex .flex_item{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.border_1::after{
+    content: "";
+    position: absolute;
+    width: 138px;
+    height: 100px;
+    background: #fff;
+    right: 105px;
+    top: 0;
+    border-radius: 0px 0px 0px 88px;
+    z-index: -1;
+}
+.items_01{
+    width: 30%;
+}
+.items_02{
+    width: 60%;
+}
+.items_02 a{
+    margin-right: 25px;
+    color: #000;
+}
+.active{
+    background: radial-gradient(#ffffff,#f4eae0);
+    padding: inherit;
+    padding-left: 5px;
+}
+.items_03 {
+    width: 30%;
+    text-align: right;
+    text-transform: uppercase;
+}
+/* header */
+/* bannner */
+#banner{
+position: relative;
+}
+#banner img{
+width: 100%
+}
+#banner .grid{
+    grid-template-columns: 50% 50%;
+}
+.border{
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    
+}
+#banner h1{
+    font-size: 130px;
+    text-transform: uppercase;
+}
+#banner h3{
+    font-size: 45px;
+}
+#banner .images{
+    position: absolute;
+    bottom: 15%;
+    width: 12%;
+    right: 30%;
+}
+#banner .sub_grid{
+width: 300px;
+display: grid;
+grid-template-columns: 70% 30%;
+margin-top: 9%;
+}
+#banner .sub_grid_items_01{
+background-color: #000;
+color:#f1e5d9;
+font-size: 30px;
+text-align: right;
+letter-spacing: 2px;
+}
+#banner .sub_grid_items_02{
+    background-color: #e4c09d;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px; 
+}
+/* bannner */
+/*  copyright and social link */
+#copy{
+    text-align: right;
+}
+ 
+#copy .flex{
+    justify-content: end;
+    padding-right: 5%;
+}
+.icon{
+    margin-left: 1%;
+    color: #f1e5d9;
+    background-color: #d49556;
+    /* padding: 4px; */
+    padding-top: 9px;
+    width: 25px;
+    height: 25px;
+    border-radius: 37%;
+    text-align: center;
+}
+/*  copyright and social link */
